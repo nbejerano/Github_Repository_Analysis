@@ -213,7 +213,7 @@ st.markdown('<span style="font-size:15px;"> The graph of repositories created by
 st.markdown("### [Popularity by Number of Languages Used per Repository](https://drive.google.com/file/d/1u90Pqb_mi_ufWC_2JCOq0BAJ7v5TgpcB/view?usp=sharing)")
 
 # Display the plot in Streamlit
-st.image('/Users/naama/Desktop/Beacon/Screen Shot 2023-12-23 at 10.09.36 PM.png', use_column_width=True)
+st.image('Screen Shot 2023-12-23 at 10.09.36 PM.png', use_column_width=True)
 
 
 st.markdown('<span style="font-size:15px;"> The data processing was too dense to be processed in streamlit to create the plot.</span>', unsafe_allow_html=True)

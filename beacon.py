@@ -32,7 +32,7 @@ st.markdown("""
 Popularity is measured by a sum across the value associated with stars_count,forks_count,watchers,pull_requests, and commit_count.
 """)
 # Read the CSV file
-file_path = '/Users/naama/Desktop/Beacon/names_most_pop.csv'
+file_path = '/names_most_pop.csv'
 top_repositories = pd.read_csv(file_path)
 
 # Create a horizontal bar chart using Altair

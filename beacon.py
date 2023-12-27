@@ -65,7 +65,7 @@ st.markdown("""
 st.markdown("### [Average Popularity by Programming Language](https://drive.google.com/file/d/1O6yax1ct8qw2zJ_rVd4yl7QBd3bY3JaA/view?usp=sharing)")
 
 # Specify the path to your CSV file
-average_popularity_by_language_path = '/Users/naama/Desktop/Beacon/average_popularity_by_language.csv'
+average_popularity_by_language_path = 'average_popularity_by_language.csv'
 
 # Read the CSV file into a pandas DataFrame
 pop_language_df = pd.read_csv(average_popularity_by_language_path)
@@ -89,7 +89,7 @@ st.markdown('<span style="font-size:12px;"> *Rows where any of the above values 
 
 st.markdown("### [Percent of Repositories Created by Language Over Time](https://drive.google.com/file/d/1Cpks-MrerlyeKUa888Fgvlc8aj9rGqmz/view?usp=sharing)")
 
-top_lang_over_time = '/Users/naama/Desktop/Beacon/top_lang_pop_over_time.csv'
+top_lang_over_time = 'top_lang_pop_over_time.csv'
 top_lang_over_time_df = pd.read_csv(top_lang_over_time)
 
 # Melt the DataFrame to make it suitable for Altair
@@ -119,7 +119,7 @@ st.markdown("""
 st.markdown("### [Number of Repositories Created Over Time](https://drive.google.com/file/d/1ek3YMuSprsIheXT-93jpZ1vavjrjabXx/view?usp=sharing)")
 
 # Specify the path to your CSV file
-data_path = '/Users/naama/Desktop/Beacon/repositories_by_year.csv'
+data_path = 'repositories_by_year.csv'
 
 # Read the CSV file into a pandas DataFrame
 df = pd.read_csv(data_path)
@@ -145,7 +145,7 @@ st.markdown('<span style="font-size:15px;"> __Key Finding__: There is a steady i
 
 st.markdown("### [Average Number of Repositories Created Per Season](https://drive.google.com/file/d/12Tga-F2_DcStsfBuJ_t6YfCAoSsnUzxz/view?usp=sharing)")
 # Specify the path to your CSV file
-data_path = '/Users/naama/Desktop/Beacon/average_repositories_by_season.csv'
+data_path = 'average_repositories_by_season.csv'
 
 # Read the CSV file into a pandas DataFrame
 df = pd.read_csv(data_path)
@@ -193,7 +193,7 @@ st.markdown("""
 
 st.markdown("### [Average Number of Repositories Created by Month](https://drive.google.com/file/d/1ro52B3Eyf1I4UDG-fDYD5gKhE16WAKKP/view?usp=sharing)")
 # Read the CSV file
-csv_file_path = '/Users/naama/Desktop/Beacon/avg_rep_month.csv'
+csv_file_path = 'avg_rep_month.csv'
 result_df = pd.read_csv(csv_file_path)
 
 # Create a vertical bar chart
